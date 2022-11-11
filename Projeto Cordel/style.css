@@ -1,55 +1,97 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
 * {
-    margin: 0px;
     padding: 0px;
-    font-size: 1em;
+    margin: 0px;    
+    font-family: 'Passion One', cursive;
 }
 
-header {
+
+
+
+header > h1 {
     display: block;
     background-color: black;
     color: white;
-    height: 200px;
-    padding: 10px;
+    padding: 50px 0px 5px 0px;
     text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 68px;
+    font-weight: bold;
 }
 
-header > h1 {
-    margin: 50px;
+header > h2 {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 5px 0px 50px 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
-div { 
-    height: 400px;
-
+header > h2 > a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
-    background-size: 100% 100%;
-    padding: 10px;
+a:hover { 
+    text-decoration: underline;
+}
+
+main > p {
+    display: block;
+    max-width: 450px;
+    font-weight: 100;
+    font-size: 23px;
+    margin: 50px 30px;
+    font-family: 'Sriracha', cursive;
+    line-height: 50px;
+}
+
+div > p {
+    display: block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.377);
+    max-width: 300px;
+    font-weight: 100;
+    font-size: 23px;
+    margin: 50px 30px;
+    font-family: 'Sriracha', cursive;
+    line-height: 50px;
+    padding: 30px;
+}
+
+div#joana {
+    height: 450px;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+div#jornal {
+    height: 450px;
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-position: center;
-    
 }
 
-#raca {
-    background-image: url(imagens/flamengo.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-#gabi {
-    background-image: url(imagens/gabigol.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-p {
-    background-color: white;
-    color: black;
-    max-height: 250px;
-    max-width: 500px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-    text-align: justify;
-    border-radius: 5px;
+footer > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

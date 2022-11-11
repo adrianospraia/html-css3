@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header {
+    display: block;
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+header > h1 {
+    margin: 50px;
+}
+
+div { 
+    height: 400px;
+
+}
+
+.container {
+    background-size: 100% 100%;
+    padding: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+#raca {
+    background-image: url(imagens/flamengo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gabi {
+    background-image: url(imagens/gabigol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    background-color: white;
+    color: black;
+    max-height: 250px;
+    max-width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    text-align: justify;
+    border-radius: 5px;
+}
