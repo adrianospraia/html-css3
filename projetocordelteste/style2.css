@@ -54,6 +54,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    padding-right: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
@@ -84,7 +85,7 @@ section.imagem > p {
 
 
 section#img01 {
-    background-image: url('imagens/gabigol10.webp');
+    background-image: url('imagens/novogabi.jpg');
     background-position: center center;
     
 }
