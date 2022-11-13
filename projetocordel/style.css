@@ -6,12 +6,9 @@
 
 * {
     padding: 0px;
-    margin: 0px;    
+    margin: 0px;
     font-family: 'Passion One', cursive;
 }
-
-
-
 
 header > h1 {
     display: block;
@@ -22,6 +19,7 @@ header > h1 {
     font-family: 'Passion One', cursive;
     font-size: 68px;
     font-weight: bold;
+    font-variant: small-caps;
 }
 
 header > h2 {
@@ -46,29 +44,35 @@ a:hover {
 
 main > p {
     display: block;
-    max-width: 450px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 50%;
+    min-width: 513px;
     font-weight: 100;
     font-size: 23px;
     margin: 50px 30px;
     font-family: 'Sriracha', cursive;
-    line-height: 50px;
+    line-height: 2em;
 }
 
 div > p {
     display: block;
     color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 50%;
+    min-width: 213px;
     background-color: rgba(0, 0, 0, 0.377);
     max-width: 300px;
     font-weight: 100;
     font-size: 23px;
     margin: 50px 30px;
     font-family: 'Sriracha', cursive;
-    line-height: 50px;
-    padding: 30px;
+    line-height: 2em;
 }
 
 div#joana {
-    height: 450px;
+    min-width: 250px;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -77,7 +81,7 @@ div#joana {
 }
 
 div#jornal {
-    height: 450px;
+    min-width: 250px;
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
