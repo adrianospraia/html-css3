@@ -83,6 +83,12 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 
+section.audio {
+    display: block;
+    text-align: center;
+    background-color: black;
+}
+
 
 section#img01 {
     background-image: url('imagens/novogabi.jpg');
