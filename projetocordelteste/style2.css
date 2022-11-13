@@ -37,6 +37,7 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
+    line-height: 2em;
 }
 
 header a, footer a {
@@ -81,6 +82,11 @@ section.imagem > p {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
+}
+
+audio {
+    width: 100px;
+    height: 54px;
 }
 
 section.audio {
