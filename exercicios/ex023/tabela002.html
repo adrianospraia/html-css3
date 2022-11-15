@@ -10,6 +10,7 @@
             font-family: Arial, Helvetica, sans-serif;
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -26,15 +27,32 @@
         .num {
             text-align: right;
         }
+        caption {
+            text-align: center;
+            font-variant: small-caps;
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+        }
     </style>
 </head>
 <body>
     <h1>Maiores Campeões da Libertadores</h1>
     
     <table>
+        <caption>Campeões da Libertadores da América</caption>
         <thead>
-            <th>Clubes</th>
-            <th>Títulos</th>
+            <th scope="col">Clubes</th>
+            <th scope="col">Títulos</th>
         </thead>
         <tbody>
             <tr>
@@ -139,7 +157,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total</th>
+            <th scope="row">Total</th>
             <td class="num"><strong>63</strong></td>
         </tfoot>
     </table>

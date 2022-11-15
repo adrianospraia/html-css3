@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        .col1 {
+            background-color: black;
+        }
+
+        .cnome {
+            background-color: rgb(255, 0, 0);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adriano</td>
+                <td>M</td>
+                <td>23</td>
+                <td>DEV</td>
+            </tr>
+            <tr>
+                <td>Gabriel Barbosa</td>
+                <td>M</td>
+                <td>26</td>
+                <td>Jogador</td>
+            </tr>
+            <tr>
+                <td>Marcos Braz</td>
+                <td>M</td>
+                <td>?</td>
+                <td>Gerente de Futebol</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
