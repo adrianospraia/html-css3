@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+menu {
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    border: 2px solid grey;
+}
+
+a {
+    padding: 10px 115px 10px 115px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+
+body {
+    background-color: gainsboro;
+}
+
+main {
+    display: block;
+    margin: 30px auto 30px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    width: 80vw;
+    font-size: 1em;
+}
