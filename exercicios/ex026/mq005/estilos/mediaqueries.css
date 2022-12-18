@@ -1,2 +1,23 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 426px){
+    menu > nav > ul {
+        display: flex;
+        flex-direction: row;
+    }    
+
+    #menuburguer {
+        display: none;
+    }
+
+
+    main {
+        max-width: 800px;
+    }
+}
+
+@media print {
+    menu {
+        display: none;
+    }
+}

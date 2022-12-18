@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -17,7 +19,7 @@ h1 {
 }
 
 menu {
-    display: block;
+    display: none;
     margin: auto;
 }
 
@@ -26,21 +28,47 @@ ul {
 }
 
 li {
-    padding: 10px;
     background-color: rgb(54, 54, 54);
     text-align: center;
-    border: 2px solid grey;
+    border: 1px solid grey;
 }
 
 a {
-    padding: 10px 115px 10px 115px;
+    display: block;
+    padding: 10px;
     text-decoration: none;
     color: white;
     background-color: rgb(54, 54, 54);
 }
 
+a:hover {
+    background-color: rgb(77, 76, 76);
+}
+
+#menuburguer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#menuburguer:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
 body {
     background-color: gainsboro;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    line-height: 20px;
+    text-indent: 20px;
+    text-align: justify;
 }
 
 main {
