@@ -51,10 +51,6 @@ a:hover {
     padding: 10px;
 }
 
-#menuburguer:hover {
-    background-color: white;
-    cursor: pointer;
-}
 
 body {
     background-color: gainsboro;
